@@ -3,7 +3,7 @@
 }
 
 .b-g-blue {
-  background-color:#191765;
+  background-color: #191765;
 }
 
 .bg-purple {
@@ -11,7 +11,7 @@
 }
 
 .m-b-60 {
- margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .m-t-50 {
@@ -35,11 +35,11 @@
 }
 
 .story-section {
-  height: 85px; 
-  margin-top:20px;
+  height: 85px;
+  margin-top: 20px;
 }
 
 .story-p {
-  font-size: 20px; 
+  font-size: 20px;
   margin-bottom: 10px;
 }
