@@ -1,3 +1,45 @@
 .card-img-1 {
   background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
 }
+
+.b-g-blue {
+  background-color:#191765;
+}
+
+.bg-purple {
+  color: #9390ff;
+}
+
+.m-b-60 {
+ margin-bottom: 60px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-t-200 {
+  margin-top: 200px;
+}
+
+.h-448 {
+  height: 448px;
+}
+
+.w-448 {
+  width: 448px;
+}
+
+.story-section {
+  height: 85px; 
+  margin-top:20px;
+}
+
+.story-p {
+  font-size: 20px; 
+  margin-bottom: 10px;
+}
