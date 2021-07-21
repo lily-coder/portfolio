@@ -2,12 +2,12 @@
 
 # First Project
 
-> This is the initial project in Microverse. The aim is to enable me to write professional work and have gitflow best practices.
+> In this project, we are using Bootstrap to create a new portfolio website. 
 
 ## Built With
 
-- Html
-- Css
+- Html5 and Css3
+- Bootstrap
 
 ## Live Demo
 
@@ -16,19 +16,23 @@
 ### Setup
 To get a local copy up and running follow these simple example steps.
 
-- Clone the repository to your computer using git clone https://github.com/lily-coder/first-project.git
+- Clone the repository to your computer using git clone https://github.com/lily-coder/portfolio.git
 - Cd into the folder
 - Open index.html with live server
 - Or you can Fork it instead, and create a pull request to suggest some changes
 
 ## Authors
 
-👤 **Author1**
+👤 **Lilian Moraa**
 
 - GitHub: [@githubhandle](https://github.com/lily-coder/lily-coder)
 - Twitter: [@twitterhandle](https://mobile.twitter.com/LilianM53742529)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lilian-moraa-99950b1b8)
 
+👤 **Daniel M. Matongo**
+
+- GitHub: [mmatongo](https://github.com/mmatongo)
+- LinkedIn: [Daniel M. Matongo](https://linkedin.com/in/mmatongo)
 
 ## 🤝 Contributing
 
