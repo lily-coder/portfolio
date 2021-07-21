@@ -23,29 +23,29 @@
     <title>Lilian's Portfolio</title>
 </head>
 <body class="b-g-blue">
-    <nav>
-        <!-- <a class="navbar-brand nav-item ml-auto text-white" href="#">John Doe</a> -->
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#"><i class="fas fa-envelope"></i></a>
-            </li>
-        </ul>
-    </nav>
-    <div class="col-5 m-auto position-relative flex-column d-flex align-items-center align-middle">
-        <h1 class="display-3 row font-weight-bold bg-purple">Moraa Lilian</h1>
+  <nav class="align-items-center d-flex w-100">
+    <div class="col-2"><a class="navbar-brand nav-item ml-auto text-white" href="#">John Doe</a></div>
+    <ul class="nav justify-content-end col-10">
+        <li class="nav-item">
+            <a class="nav-link text-white fs-12" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fs-12" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fs-12" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fs-12" href="#"><i class="fas fa-envelope"></i></a>
+        </li>
+    </ul>
+</nav>
+    <div class="col-lg-5 col-sm-8 m-auto position-relative flex-column d-flex align-items-center">
+        <h1 class="fs-48 display-3 row font-weight-bold bg-purple m-auto">Moraa Lilian</h1>
 
-        <h2 class="text-white display-5 row m-b-60">Software Developer</h2>
+        <h2 class="fs-32 text-white display-5 row m-b-60">Software Developer</h2>
 
-        <p class="text-white justify-content-center col-12">
+        <p class="text-white justify-content-center col-lg-12">
             I can help you build a product,
             feature or website Look through
             some of my work and experience!
@@ -54,17 +54,17 @@
             don’t hestiate to contact me.
         </p>
     </div>
-    <hr class="border-secondary col-4">
-    <div class="d-flex flex-row text-white justify-content-center mt-140 mb-140">
-        <ul class="d-flex flex-column list-unstyled mr-5">
-          <li>Languages</li>
+    <hr class="border-secondary col-lg-4 col-sm-8">
+    <div class="d-flex flex-row text-white justify-content-center mt-140 mb-140 col-sm-8 m-auto">
+        <ul class="d-flex flex-column list-unstyled mr-5 ml-5">
+          <li class="bg-purple bold">Languages</li>
           <li>Javascript</li>
           <li>Ruby</li>
           <li>Html</li>
           <li>Css</li>
         </ul>
         <ul class="d-flex flex-column list-unstyled mr-5">
-          <li>Frameworks</li>
+          <li class="bg-purple bold">Frameworks</li>
           <li>Bootstrap</li>
           <li>Ruby on Rails</li>
           <li>RSpec</li>
@@ -72,7 +72,7 @@
           <li>Selenium</li>
         </ul>
         <ul class="d-flex flex-column list-unstyled mr-5">
-          <li>Skills</li>
+          <li class="bg-purple bold">Skills</li>
           <li>Codekit</li>
           <li>Github</li>
           <li>Codepen</li>
@@ -80,46 +80,130 @@
           <li>Terminal</li>
         </ul>
     </div>
-    <hr class="border-secondary col-4">
-    <div class="d-flex flex-row justify-content-between col-8 m-auto">
+    <hr class="border-secondary col-lg-4 m-b-60 col-sm-">
+    <div class="d-flex flex-row justify-content-between col-lg-8 m-auto align-items-center">
         <div class="d-flex flex-row align-items-center">
-            <p class="text-white">Work</p>
+            <p class="text-white m-t-10 m-r-8">Work</p>
             <i class="fas fa-arrow-down text-white"></i>
         </div>
-        <div class="d-flex flex-row m-t-50">
+        <div class="d-flex flex-row">
+            <i class="fa fa-github text-white m-lg-3 ma-2"></i>
+            <i class="fa fa-linkedin text-white m-lg-3 ma-2"></i>
+            <i class="fa fa-angellist text-white m-lg-3 ma-2"></i>
+            <i class="fa fa-twitter text-white m-lg-3 ma-2"></i>
+            <i class="fa fa-medium text-white m-lg-3 ma-2"></i>
+        </div>
+        <div class="d-flex flex-row align-items-center d-sm-none">
+            <i class="fas fa-arrow-down text-white m-r-8"></i>
+            <p class="text-white m-t-10">Work</p>
+        </div>
+    </div>
+    <div class="d-flex flex-row col-lg-10 m-auto ml-0">
+        <h2 class="bg-purple m-t-200">My Recent Work<br></h2>
+    </div>
+    <hr class="border-secondary col-lg-10">
+    <div class="row justify-content-center m-auto w-100 story-sec">
+      <div class="card card-img-1 col-lg-6 col-xs-6 h-236 m-t-50">
+      </div>
+      <div class="col-lg-4">
+        <div class="card b-g-blue">
+          <div class="card-body">
+            <h2 class="card-title text-white story-section">Multi-post-stories</h2>
+            <p class="card-text text-white story-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="d-flex">
+              <span class="badge text-white b-g-blue">html</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">css</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">bootstrap</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">Ruby</span><hr class="border-secondary m-1">
+            </div>
+            <a href="#" class="btn btn-primary color-purple text-white m-t-40">See Project</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row justify-content-center m-auto w-100 story-sec">
+      <div class="card card-img-1 col-lg-6 h-236 m-t-50">
+      </div>
+      <div class="col-lg-4">
+        <div class="card b-g-blue">
+          <div class="card-body">
+            <h2 class="card-title text-white story-section">Multi-post-stories</h2>
+            <p class="card-text text-white story-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="d-flex">
+              <span class="badge text-white b-g-blue">html</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">css</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">bootstrap</span><hr class="border-secondary m-1">
+              <span class="badge text-white b-g-blue">Ruby</span><hr class="border-secondary m-1">
+            </div>
+            <a href="#" class="btn btn-primary color-purple text-white m-t-40">See Project</a>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="row justify-content-center m-auto w-100 story-sec">
+        <div class="card card-img-1 col-lg-6 h-236 m-t-50">
+        </div>
+        <div class="col-lg-4">
+          <div class="card b-g-blue">
+            <div class="card-body">
+              <h2 class="card-title text-white story-section">Multi-post-stories</h2>
+              <p class="card-text text-white story-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+              <div class="d-flex">
+                <span class="badge text-white b-g-blue">html</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">css</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">bootstrap</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">Ruby</span><hr class="border-secondary m-1">
+              </div>
+              <a href="#" class="btn btn-primary color-purple text-white m-t-40">See Project</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row justify-content-center m-auto w-100 story-sec">
+        <div class="card card-img-1 col-lg-6 h-236 m-t-50">
+        </div>
+        <div class="col-lg-4">
+          <div class="card b-g-blue">
+            <div class="card-body">
+              <h2 class="card-title text-white story-section">Multi-post-stories</h2>
+              <p class="card-text text-white story-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+              <div class="d-flex">
+                <span class="badge text-white b-g-blue">html</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">css</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">bootstrap</span><hr class="border-secondary m-1">
+                <span class="badge text-white b-g-blue">Ruby</span><hr class="border-secondary m-1">
+              </div>
+              <a href="#" class="btn btn-primary color-purple text-white m-t-40">See Project</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-6 justify-content-center m-auto d-flex flex-column">
+        <h2 class="row bg-purple justify-content-center m-t-200">Lets Chat</h2>
+        <p class="text-white col-lg-12 justify-content-center">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+    </div>
+    <form class="col-lg-6 justify-content-center m-auto">
+        <div class="form-group">
+            <input type="text" class="form-control m-t-40" id="formGroupExampleInput" placeholder="Example input">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control h-150" id="exampleFormControlTextarea1" placeholder="Write Your Message Here" rows="3"></textarea>
+        </div>
+      </form>
+      <div class="col-lg-1 col-sm-1 justify-content-center m-auto"><a href="#" class="btn btn-primary color-purple text-white justify-content-center m-t-40">Send</a></div>
+      <hr class="border-secondary col-lg-12 m-t-40">
+      <div class="row align-items-center justify-content-center w-100">
+        <div class="d-flex flex-row">
             <i class="fa fa-github text-white m-3"></i>
             <i class="fa fa-linkedin text-white m-3"></i>
             <i class="fa fa-angellist text-white m-3"></i>
             <i class="fa fa-twitter text-white m-3"></i>
             <i class="fa fa-medium text-white m-3"></i>
         </div>
-        <div class="d-flex flex-row align-items-center m-t-200">
-            <i class="fas fa-arrow-down text-white"></i>
-            <p class="text-white">Work</p>
-        </div>
-    </div>
-    <div class="d-flex flex-row col-10 m-auto ml-0">
-        <h2 class="bg-purple">My Recent Work<br></h2>
-    </div>
-    <hr class="border-secondary col-10">
-    <div class="row justify-content-center m-auto h-448">
-        <div class="card card-img-1 col-6 w-448">
-        </div>
-        <div class="col-4">
-          <div class="card b-g-blue">
-            <div class="card-body">
-              <h2 class="card-title text-white story-section">Multi-post-stories</h2>
-              <p class="card-text text-white story-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-              <div class="d-flex">
-                <span class="badge text-white b-g-blue">Primary</span><hr class="border-secondary m-1">
-                <span class="badge text-white b-g-blue">Primary</span><hr class="border-secondary m-1">
-                <span class="badge text-white b-g-blue">Primary</span><hr class="border-secondary m-1">
-                <span class="badge text-white b-g-blue">Primary</span><hr class="border-secondary m-1">
-              </div>
-              <a href="#" class="btn btn-primary bg-purple m-t-40">See Project</a>
-            </div>
-          </div>
-        </div>
+        <div class="text-white">Emailhere@email.com</div>
       </div>
 </body>
 
