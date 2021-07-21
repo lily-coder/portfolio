@@ -25,9 +25,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Lilian Moraa**
 
-- GitHub: [@githubhandle](https://github.com/lily-coder/lily-coder)
-- Twitter: [@twitterhandle](https://mobile.twitter.com/LilianM53742529)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lilian-moraa-99950b1b8)
+- GitHub: [@lily-coder](https://github.com/lily-coder/lily-coder)
+- Twitter: [@LilianM53742529](https://mobile.twitter.com/LilianM53742529)
+- LinkedIn: [lilian-moraa-99950b1b8](https://www.linkedin.com/in/lilian-moraa-99950b1b8)
 
 👤 **Daniel M. Matongo**
 
